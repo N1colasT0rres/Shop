@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff;
+}
+
+.nav-link {
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #d4af37;
+}
+
+.hero {
+    background: url('https://img.interempresas.net/fotos/3430161.jpeg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn-gold {
+    background-color: #d4af37;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.hero .btn-gold:hover {
+    background-color: #b89c29;
+}
+
+/* Productos */
+.productos {
+    padding: 40px 0;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+}
+
+/* Ofertas Especiales */
+.ofertas {
+    padding: 40px 0;
+}
+
+.offer-card {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.offer-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Testimonios */
+.testimonios {
+    padding: 40px 0;
+}
+
+.testimonial-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.testimonial-card p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.testimonial-card h5 {
+    font-size: 16px;
+    color: #d4af37;
+}
+
+/* Sobre Nosotros */
+.about {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+/* Footer - Redes Sociales */
+footer {
+    background-color: #000;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #d4af37;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .carousel-inner .row {
+        flex-direction: column;
+    }
+
+    .carousel-item {
+        text-align: center;
+    }
+
+    .ofertas .row, .testimonios .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
